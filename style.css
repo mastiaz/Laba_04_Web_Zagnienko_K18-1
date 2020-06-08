@@ -1,0 +1,144 @@
+.button {
+	margin-top: 15px;
+color: red;
+background-color: #cacac8;
+border-radius: 8px;
+display: flex;
+cursor: pointer;
+height: 30px;
+align-items: center;
+padding: 10px 15px;
+}
+.menu {
+	margin-top: 20px;
+}
+header {
+	background-color: #cacac8;
+	display: flex; 
+	flex-direction: row;
+}
+.button_group
+{
+	 display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+	margin-top:-10px;
+}
+.main
+{
+	position: relative;
+	box-sizing: border-box;
+background-image: url(img/photo1.jpg);
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  }
+  .text
+  {
+  	padding: 10px 15px;
+  	height: 120px;
+  	width: 300px;
+  	background-color: rgba(185, 182, 181,0.8);
+  	z-index: 2;
+  	position: absolute;
+  	top: 150px;
+  	left: 200px;
+  	border:1px solid red;
+  	border-radius: 20px 0px 20px 0px;
+
+  }
+  .text h2
+  {
+  font-size: 40px;
+  	margin-left: 150px;
+  }
+.flag_black
+{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+.flag_red
+{
+	background-color: red;
+	width: 100%;
+	height: 100px;
+}
+.flag_yellow
+{
+	background-color: yellow;
+	width: 100%;
+	height: 100px;
+}
+.colors {
+	position:relative;
+}
+.main_text {
+	position: absolute;
+	bottom: 5px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.button2
+{
+	margin-top: 15px;
+color: red;
+background-color: #cacac8;
+border-radius: 8px;
+display: flex;
+cursor: pointer;
+height: 50px;
+width: 90px;
+align-items: center;
+padding: 10px 15px;
+margin:20px auto 0;
+}
+.text_item
+{
+	padding: 10px 15px;
+  	height: 350px;
+  	width: 300px;
+  	background-color: #cacac8;
+  	z-index: 2;
+  	border:1px solid black;
+  	border-radius: 35px;
+  	margin-left: 135px;
+  	padding-top: 125px;
+
+}
+.main2
+{
+	position: relative;
+	box-sizing: border-box;
+background-image: url(img/photo2.jpg);
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  }
+  .circle_text
+  {
+  	height: 400px;
+  	width: 400px;
+  	z-index: 2;
+  	position: absolute;
+  	border:2px solid red;
+  	border-radius: 100%;
+  	background-color: #cacac8;
+  	top: 100px;
+  	left: 100px;
+  	padding: 100px;
+  	text-align: center;
+  }
+  footer
+  {
+  	width: 100%;
+  	height: 100px;
+  	background-color: black;
+  	color: white;
+  }
+  .gmail {
+  	text-align: right;
+  }
