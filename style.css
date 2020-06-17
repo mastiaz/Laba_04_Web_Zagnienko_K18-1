@@ -1,13 +1,13 @@
 .button {
 	margin-top: 15px;
-color: red;
-background-color: #cacac8;
-border-radius: 8px;
-display: flex;
-cursor: pointer;
-height: 30px;
-align-items: center;
-padding: 10px 15px;
+	color: red;
+	background-color: #cacac8;
+	border-radius: 8px;
+	display: flex;
+	cursor: pointer;
+	height: 30px;
+	align-items: center;
+	padding: 10px 15px;
 }
 .menu {
 	margin-top: 20px;
@@ -19,9 +19,9 @@ header {
 }
 .button_group
 {
-	 display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .logo {
 	margin-top:-10px;
@@ -30,30 +30,30 @@ header {
 {
 	position: relative;
 	box-sizing: border-box;
-background-image: url(https://i.imgur.com/8yLo4Sx.jpg);
-  background-size: cover;
-  height:100vh;
-  width:100%;
-  }
-  .text
-  {
-  	padding: 10px 15px;
-  	height: 120px;
-  	width: 300px;
-  	background-color: rgba(185, 182, 181,0.8);
-  	z-index: 2;
-  	position: absolute;
-  	top: 150px;
-  	left: 200px;
-  	border:1px solid red;
-  	border-radius: 20px 0px 20px 0px;
+	background-image: url(https://i.imgur.com/8yLo4Sx.jpg);
+	background-size: cover;
+	height:100vh;
+	width:100%;
+}
+.text
+{
+	padding: 10px 15px;
+	height: 120px;
+	width: 300px;
+	background-color: rgba(185, 182, 181,0.8);
+	z-index: 2;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	border:1px solid red;
+	border-radius: 20px 0px 20px 0px;
 
-  }
-  .text h2
-  {
-  font-size: 40px;
-  	margin-left: 150px;
-  }
+}
+.text h2
+{
+	font-size: 40px;
+	margin-left: 150px;
+}
 .flag_black
 {
 	background-color: black;
@@ -85,60 +85,238 @@ background-image: url(https://i.imgur.com/8yLo4Sx.jpg);
 .button2
 {
 	margin-top: 15px;
-color: red;
-background-color: #cacac8;
-border-radius: 8px;
-display: flex;
-cursor: pointer;
-height: 50px;
-width: 90px;
-align-items: center;
-padding: 10px 15px;
-margin:20px auto 0;
+	color: red;
+	background-color: #cacac8;
+	border-radius: 8px;
+	display: flex;
+	cursor: pointer;
+	height: 50px;
+	width: 90px;
+	align-items: center;
+	padding: 10px 15px;
+	margin:20px auto 0;
 }
 .text_item
 {
 	padding: 10px 15px;
-  	height: 350px;
-  	width: 300px;
-  	background-color: #cacac8;
-  	z-index: 2;
-  	border:1px solid black;
-  	border-radius: 35px;
-  	margin-left: 135px;
-  	padding-top: 125px;
+	height: 350px;
+	width: 300px;
+	background-color: #cacac8;
+	z-index: 2;
+	border:1px solid black;
+	border-radius: 35px;
+	margin-left: 135px;
+	padding-top: 125px;
 
 }
 .main2
 {
 	position: relative;
 	box-sizing: border-box;
-background-image: url(https://i.imgur.com/nWIL1BR.jpg);
-  background-size: cover;
-  height:100vh;
-  width:100%;
-  }
-  .circle_text
-  {
-  	height: 400px;
-  	width: 400px;
-  	z-index: 2;
-  	position: absolute;
-  	border:2px solid red;
-  	border-radius: 100%;
-  	background-color: #cacac8;
-  	top: 100px;
-  	left: 100px;
-  	padding: 100px;
-  	text-align: center;
-  }
-  footer
-  {
-  	width: 100%;
-  	height: 100px;
-  	background-color: black;
-  	color: white;
-  }
-  .gmail {
-  	text-align: right;
-  }
+	background-image: url(https://i.imgur.com/nWIL1BR.jpg);
+	background-size: cover;
+	height:100vh;
+	width:100%;
+}
+.circle
+{
+	height: 400px;
+	width: 400px;
+	z-index: 2;
+	position: absolute;
+	border:2px solid red;
+	border-radius: 100%;
+	background-color: #cacac8;
+	top: 100px;
+	left: 100px;
+	padding: 100px;
+	text-align: center;
+}
+footer
+{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+.gmail {
+	text-align: right;
+}
+@media (max-width: 1279px){
+	.main {
+		padding: 0 90px;
+	}
+	.text_item{
+		margin-left: 20px;
+	}
+	.text_inside {
+		font-size: 14px;
+	}
+	footer {
+		max-height: 100px;
+	}
+}
+@media (max-width: 999px){
+	.main_text {
+		padding: 0 20px 0 0;
+	}
+	.text_item{
+		padding: 10px 15px;
+		height: 300px;
+		width: 175px;
+		padding-top: 50px
+	}
+	.text_inside {
+		font-size: 13px;
+	}
+	.button2 {
+		padding: 15px 20px;
+		font-size: 14px;
+	}
+	.main2 {
+		height: 70vh;
+	}
+	.circle{
+		padding:40px;
+		width: 250px;
+		height: 250px;
+	}
+	.circle_text {
+		margin-top: 15px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 767px){
+	.main_text {
+		margin-right: 12px;
+		padding: 5px 15px;
+		font-size: 13px;
+	}
+	.main {
+		height: 600px;
+	}
+	.logo {
+		width: 80px;
+		height: 60px;
+		margin-right: 22px;
+	}
+	.text_item{
+		padding: 0px 5px 0px;
+		height: 300px;
+		width: 175px;
+		margin-left: 5px;
+	}
+	.text {
+		top: 35px;
+		left: 20px;
+	}
+	.text h1 {
+		font-size: 30px;
+	}
+	.text h2 {
+		font-size: 24px;
+	}
+	.text_inside {
+		margin-left: 20px;
+		padding: 25px 10px 5px 10px;
+	}
+	.button2 {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	.main2 {
+		height: 60vh;
+		padding: 100px 50px;
+	}
+	.circle {
+		padding: 30px;
+		width: 200px;
+		height: 200px;
+	}
+	.circle_text {
+		margin-top: 20px;
+		font-size: 11px;
+	}
+	.contact {
+		font-size: 11px;
+	}
+	.gmail {
+		font-size: 11px;
+	}
+	footer {
+		height: 70px;
+	}
+}
+
+@media (max-width: 539px){
+	.menu {
+		font-size: 14px;
+	}
+	.button {
+		margin: 10px 5px;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	.logo {
+		height: 70px;
+		width: 70px;
+		margin-right: 10px;
+		margin-top: -5px;
+	}
+	.circle {
+		left: 25px;
+		top: 50px;
+	}
+	.text {
+		height: 90px;
+		width: 220px;
+	}
+	.main {
+		height: 430px;
+	}
+	.main_text{
+		padding: 5px;
+		margin-right: 9px;
+	}
+	.text_inside {
+		margin-left: 0px;
+		padding: 20px 5px 5px 5px;
+		font-size: 10px;
+	}
+	.text_item {
+		padding: 0px 5px 0px;
+		height: 200px;
+		width: 125px;
+		margin-left: 5px;
+	}
+	.button2 {
+		height: 35px;
+		width: 75px;
+		padding: 10px 15px;
+		margin: 0 auto;
+	}
+	.flag_black {
+		height: 60px;
+	}
+	.flag_red {
+		height: 60px;
+	}
+	.flag_yellow {
+		height: 60px;
+	}
+	.main2 {
+		height: 400px;
+	}
+	
+	.contact {
+		font-size: 10px;
+	}
+	.gmail {
+		font-size: 10px;
+	}
+	footer {
+		height: 70px;
+		padding: 10px;
+	}
+}
