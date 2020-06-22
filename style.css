@@ -100,13 +100,14 @@ header {
 {
 	padding: 10px 15px;
 	height: 350px;
-	width: 250px;
+	width: 243px;
 	background-color: #cacac8;
 	z-index: 2;
 	border:1px solid black;
 	border-radius: 35px;
 	margin-left: 135px;
 	padding-top: 125px;
+	max-width: 100%;
 
 }
 .main2
@@ -154,6 +155,9 @@ footer
 	}
 	footer {
 		max-height: 100px;
+	}
+	.main_text {
+		padding-left: 20px;
 	}
 }
 @media (max-width: 999px){
